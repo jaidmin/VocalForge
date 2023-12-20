@@ -7,7 +7,7 @@ nemo_text_processing
 nemo_toolkit
 num2words
 numpy
-openai_whisper==20230314
+openai_whisper==20231117
 pandas==1.4.3
 pyannote.core
 pyannote.audio
