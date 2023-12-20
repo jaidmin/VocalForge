@@ -60,7 +60,7 @@ class Isolate:
         from pyannote.audio import Pipeline
 
         pipeline = Pipeline.from_pretrained(
-            "pyannote/speaker-diarization@develop", use_auth_token=True
+            "pyannote/speaker-diarization-3.1", use_auth_token=True
         )
         for file in self.Input_Files:
             dia = pipeline(str(self.Input_Dir / file))
